@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>롯데리아-쿠폰</title>
+  <link rel="icon" href="아이콘/Asset 1.png">
+  <link rel="stylesheet" href="css/coupon.css">
+  <script src="js/jquery-3.7.1.min.js"></script>
+  <script src="js/isotope.pkgd.min.js"></script>
+  <script src="js/coupon.js"></script>
+
+
+</head>
+
+<body>
+  <div class="wrap">
+
+    <!-- 메뉴/로고 -->
+    <div class="header">
+      <div class="header1">
+        <div class="burger">
+          <ul>
+            <li><span id="layer1" style="height: 200px;"><img src="아이콘/햄버거위.png" alt="메뉴" height="30px"></span></li>
+            <li><img src="아이콘/햄버거아래.png" alt="메뉴" height="5px" id="layer2"></li>
+            <li><img src="아이콘/햄버거아래.png" alt="메뉴" height="5px" id="layer3"></li>
+          </ul>
+        </div>
+        <div class="menu">
+          <ul>
+            <li><a href="메뉴-new.html">추천메뉴</a></li>
+            <li><a href="메뉴-햄버거.html">햄버거</a></li>
+            <li><a href="메뉴-디저트.html">디저트</a></li>
+            <li><a href="메뉴-치킨.html">치킨</a></li>
+            <li><a href="메뉴-음료.html">음료/커피</a></li>
+            <li><a href="coupon.html">쿠폰</a></li>
+          </ul>
+        </div>
+
+      </div>
+      <div class="header2"><a href="롯데리아.html"><img src="logo/롯데리아-1.png" alt="롯데리아" height="90"></a>
+      </div>
+      <div class="header3">
+
+      </div>
+    </div>
+    <!-- 배너? -->
+    <div class="banner">
+
+      <div class="circle1"><img src="롯데리아 메뉴/아이스샷/토네이도 더블초코.png" alt="토네이도 더블초코"></div>
+      <div class="circle1"><img src="롯데리아 메뉴/디저트/포테이토(L).png" alt="포테이토(L)"></div>
+      <div class="circle1"><img src="롯데리아 메뉴/햄버거/모짜렐라인더버거베이컨.png" alt="모짜렐라인더버거베이컨"></div>
+      <div class="circle1"><img src="롯데리아 메뉴/음료-커피/아이스 카페라떼.png" alt="아이스 카페라떼"></div>
+      <div class="circle1"><img src="롯데리아 메뉴/치킨/치킨 1조각.png" alt="치킨 1조각"></div>
+    </div>
+    <div class="box">
+      <p>지금 당장 쓸 수 있는 쿠폰 보러가기</p>
+      <button class="mycoupon">나의 쿠폰 ></button>
+    </div>
+
+    <hr>
+    <!-- 메뉴리스트 -->
+    <div class="menuList">
+      <h1>쿠폰</h1>
+      <ul>
+        <li id="all">전체</li>
+        <li id="bur">햄버거</li>
+        <li id="chi">치킨/디저트</li>
+        <li id="ice">음료</li>
+        <li id="sale">할인권</li>
+      </ul>
+      <div class="ImgList">
+        <ul>
+          <li class="grid sales"><a href="#">
+              <div><img src="img/coupon img/coupon1.png" alt="2000원할인 쿠폰"></div>
+            </a>
+            <span class="sale">할인권</span>
+            <p>배달할인 쿠폰</p>
+          </li>
+          <li class="grid burs"><a href="#">
+              <div><img src="img/coupon img/coupon6.png" alt="클래식치즈버거 할인쿠폰"></div>
+              <span class="bur">햄버거</span>
+              <p>클래식치즈버거 콤보</p>
+            </a>
+          </li>
+          <li class="grid ices"><a href="#">
+              <div><img src="img/coupon img/coupon7.png" alt="선데허쉬초코 할인쿠폰"></div>
+              <span class="ice">음료</span>
+              <p>선데 허쉬초코</p>
+            </a>
+          </li>
+          <li class="grid chis"><a href="#">
+              <div><img src="img/coupon img/coupon9.png" alt="치킨휠레 할인쿠폰"></div>
+              <span class="chi">치킨/디저트</span>
+              <p>치킨휠레 2조각</p>
+            </a>
+          </li>
+          <li class="grid chis"><a href="#">
+              <div><img src="img/coupon img/coupon10.png" alt="깡돼후 할인쿠폰"></div>
+              <span class="chi">치킨/디저트</span>
+              <p>깡돼후 돼지후라이드</p>
+            </a>
+          </li>
+          <li class="grid ices"><a href="#">
+              <div><img src="img/coupon img/coupon8.png" alt="토네이도 스트로베리 할인쿠폰"></div>
+              <span class="ice">음료</span>
+              <p>토네이도 스트로베리</p>
+            </a>
+          </li>
+          <li class="grid burs"><a href="#">
+              <div><img src="img/coupon img/coupon2.png" alt="사각 새우 더블버거 할인쿠폰"></div>
+              <span class="bur">햄버거</span>
+              <p>사각 새우 더블버거</p>
+            </a>
+          </li>
+          <li class="grid burs"><a href="#">
+              <div><img src="img/coupon img/coupon4.png" alt="한우명품백 할인쿠폰"></div>
+              <span class="bur">햄버거</span>
+              <p>한우 명품팩</p>
+            </a>
+          </li>
+          <li class="grid ices"><a href="#">
+              <div><img src="img/coupon img/coupon-coffee1.png" alt="카페라떼 할인쿠폰"></div>
+              <span class="ice">음료</span>
+              <p>아이스 카페라떼</p>
+            </a>
+          </li>
+          <li class="grid chis"><a href="#">
+              <div><img src="img/coupon img/coupon-디치2.png" alt="치킨패밀리팩 할인쿠폰"></div>
+              <span class="chi">치킨/디저트</span>
+              <p>치킨패밀리팩</p>
+            </a>
+          </li>
+          <li class="grid burs"><a href="#">
+              <div><img src="img/coupon img/coupon3.png" alt="돈까스팩 할인쿠폰"></div>
+              <span class="bur">햄버거</span>
+              <p>돈까스팩</p>
+            </a>
+          </li>
+          <li class="grid sales"><a href="#">
+              <div><img src="img/coupon img/coupon-할인권1.png" alt="1000원할인 쿠폰"></div>
+            </a>
+            <span class="sale">할인권</span>
+            <p>포장할인 쿠폰</p>
+          </li>
+          <li class="grid sales"><a href="#">
+              <div><img src="img/coupon img/coupon-할인권2.png" alt="10000원할인 쿠폰"></div>
+            </a>
+            <span class="sale">할인권</span>
+            <p>배달할인 쿠폰</p>
+          </li>
+          <li class="grid sales"><a href="#">
+              <div><img src="img/coupon img/coupon-할인권3.png" alt="20000원할인 쿠폰"></div>
+            </a>
+            <span class="sale">할인권</span>
+            <p>배달할인 쿠폰</p>
+          </li>
+          <li class="grid burs"><a href="#">
+              <div><img src="img/coupon img/coupon5.png" alt="빅불콤보 할인쿠폰"></div>
+              <span class="bur">햄버거</span>
+              <p>빅불 콤보</p>
+            </a>
+          </li>
+          <li class="grid burs"><a href="#">
+              <div><img src="img/coupon img/coupon-햄버거1.png" alt="한우불고기 할인쿠폰"></div>
+              <span class="bur">햄버거</span>
+              <p>한우불고기(단품)</p>
+            </a>
+          </li>
+          <li class="grid burs"><a href="#">
+              <div><img src="img/coupon img/coupon-햄버거2.png" alt="새우버거세트 할인쿠폰"></div>
+              <span class="bur">햄버거</span>
+              <p>새우버거 세트</p>
+            </a>
+          </li>
+          <li class="grid burs"><a href="#">
+              <div><img src="img/coupon img/coupon-햄버거3.png" alt="클래식치즈버거 할인쿠폰"></div>
+              <span class="bur">햄버거</span>
+              <p>클래식치즈버거(단품)</p>
+            </a>
+          </li>
+          <li class="grid sales"><a href="#">
+              <div><img src="img/coupon img/coupon-할인권4.png" alt="30000원할인 쿠폰"></div>
+            </a>
+            <span class="sale">할인권</span>
+            <p>배달할인 쿠폰</p>
+          </li>
+          <li class="grid chis"><a href="#">
+              <div><img src="img/coupon img/coupon-디치3.png" alt="치킨하프팩 할인쿠폰"></div>
+              <span class="chi">치킨/디저트</span>
+              <p>치킨하프팩</p>
+            </a>
+          </li>
+          <li class="grid ices"><a href="#">
+              <div><img src="img/coupon img/coupon-coffee2.png" alt="아메리카노 할인쿠폰"></div>
+              <span class="ice">음료</span>
+              <p>아이스 아메리카노</p>
+            </a>
+          </li>
+          <li class="grid ices"><a href="#">
+              <div><img src="img/coupon img/coupon-coffee3.png" alt="자두쿨에이드 할인쿠폰"></div>
+              <span class="ice">음료</span>
+              <p>자두쿨에이드</p>
+            </a>
+          </li>
+          <li class="grid chis"><a href="#">
+              <div><img src="img/coupon img/coupon-디치4.png" alt="화이어윙 할인쿠폰"></div>
+              <span class="chi">치킨/디저트</span>
+              <p>화이어윙</p>
+            </a>
+          </li>
+          <li class="grid ices"><a href="#">
+              <div><img src="img/coupon img/coupon-coffee4.png" alt="우유 할인쿠폰"></div>
+              <span class="ice">음료</span>
+              <p>우유</p>
+            </a>
+          </li>
+          <li class="grid chis"><a href="#">
+              <div><img src="img/coupon img/coucpon-디치1.png" alt="치킨너겟 할인쿠폰"></div>
+              <span class="chi">치킨/디저트</span>
+              <p>치킨너겟</p>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div> <!--menuList end-->
+
+    <div class="Lfooter">
+      <div class="Lfooterleft">
+        <div class="f1">
+          <ul>
+            <li><a href="#">개인정보처리방침 &nbsp;&nbsp;</a></li>
+            <li><a href="#">이용약관&nbsp;&nbsp;</a></li>
+            <li><a href="#">위치기반서비스 이용약관&nbsp;&nbsp;</a></li>
+            <li><a href="#">영상정보 처리기기 운영 및 관리 방침&nbsp;&nbsp;</a></li>
+            <li><a href="#">공지사항&nbsp;&nbsp;</a></li>
+            <li><a href="#">창업상담&nbsp;&nbsp;</a></li>
+            <li><a href="#">설정&nbsp;&nbsp;</a></li>
+          </ul>
+        </div>
+        <div class="f2">
+          <ul>
+            <li>가맹점 모집</li>
+            <li><button>롯데리아</button></li>
+            <li><button>엔젤리너스</button></li>
+            <li><button>크리스피크림 도넛</button></li>
+          </ul>
+        </div>
+        <div class="f3">
+          <ul>
+            <li>롯데GRS 사업자정보</li>
+            <li>대표자 : 차우철</li>
+            <li>주소 : 서울특별시 금천구 벚꽃로 104 금천 롯데타워</li>
+            <li>사업자번호 : 106-81-23498</li>
+            <li>통신판매번호 : 용산 06463</li>
+            <li><a href="#">사업자정보확인</a></li>
+          </ul>
+        </div>
+        <div class="f4">
+          <ul>
+            <li>문의처</li>
+            <li>일반문의 : 02-709-1114</li>
+            <li>매장이용불편사항 : 080-550-0005</li>
+            <li>일반쿠폰(기프티엘) : 1644-4276</li>
+            <li>구독쿠폰(롯데e커머스) : 1522-2552</li>
+            <li>LOTTE EATZ앱 문의 : 1600-0552</li>
+            <li><a href="#">고객의 소리</a></li>
+          </ul>
+        </div>
+
+      </div>
+      <div class="Lfooterright">
+        <select name="brand" id="brand" onchange="window.open(value,'_blank');">
+          <option>브랜드</option>
+          <option value="롯데리아.html">롯데리아</option>
+          <option value="https://www.lotteeatz.com/brand/angel">엔젤리너스</option>
+          <option value="https://www.lotteeatz.com/brand/kkd">크리스피크림 도넛</option>
+
+        </select>
+      </div>
+    </div>
+  </div><!-- wrap end -->
+
+
+</body>
+
+</html>
